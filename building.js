@@ -211,7 +211,7 @@ Building = Ice.$extend('Building', {
         if(!self.next) {
             return self.integrates_to() > 0;
         }
-        return self.integrates_to() > 0 && self.next.integrates_to() === 0;
+        return self.integrates_to() > 0;
     }
 });
 
